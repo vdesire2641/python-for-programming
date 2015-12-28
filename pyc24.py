@@ -1,0 +1,15 @@
+import turtle
+wn = turtle.Screen()
+drawingT = turtle.Turtle()
+wn.bgcolor("light green")
+wn.setworldcoordinates(1,1,2,2)
+drawingT.up()
+drawingT.goto(-1,0)
+drawingT.down()
+drawingT.goto(1,0)
+drawingT.up()
+drawingT.goto(0,1)
+drawingT.down()
+drawingT.goto(0,-1)
+wn.exitonclick()
+
